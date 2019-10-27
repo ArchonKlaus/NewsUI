@@ -55,7 +55,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
 
 public function openJoin($player){
 	$api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = $api->createSimpleForm(function (Player $player, int $data = null){
+        $form = $api->createSimpleForm(function (Player $player, ?int $data){
             if($data === null){
                 return true;
             }             
