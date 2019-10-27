@@ -77,13 +77,7 @@ class Main extends PluginBase implements Listener {
         $form->setTitle("§l§eNews");
         $form->setContent("§l§aToday's §eNews");
         $form->setContent("- §l§dscoreBoard §rhas been changed to fit th §l§ascreen §rwell!\n§r§bMore addons added to the scorehud!");
-        $form->addButton("§l§cExit\n§r§bTap to exit", 0, "textures/blocks/barrier"); {
-            break;
-
-            case 1:
-
-                break;
-        }
+        $form->addButton("§l§cExit\n§r§bTap to exit", 0, "textures/blocks/barrier"); 
 
         $form->sendToPlayer($player);
     }
